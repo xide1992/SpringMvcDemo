@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="dataSourceStorageLocal">
+    <data-source name="MySQL - xdz_db@localhost" uuid="4b60e9ff-ab1f-40a5-be50-8e661aea7e24">
+      <database-info product="MySQL" version="5.7.9-log" jdbc-version="4.0" driver-name="MySQL Connector Java" driver-version="mysql-connector-java-5.1.45 ( Revision: 9131eefa398531c7dc98776e8a3fe839e544c5b2 )">
+        <extra-name-characters>#@</extra-name-characters>
+        <identifier-quote-string>`</identifier-quote-string>
+      </database-info>
+      <case-sensitivity plain-identifiers="lower" quoted-identifiers="lower" />
+      <secret-storage>master_key</secret-storage>
+      <user-name>root</user-name>
+      <introspection-schemas>*:xdz_db|xdz_db:</introspection-schemas>
+      <resolve-scope>information_schema:|mysql:|performance_schema:|sys:|xdz_db:</resolve-scope>
+      <unqualified-resolve-schemas>information_schema:|mysql:|performance_schema:|sys:|xdz_db:</unqualified-resolve-schemas>
+    </data-source>
+    <data-source name="defaultPersistenceUnit/Hibernate" uuid="b7b36496-a553-4992-8456-dfe38640408b">
+      <database-info product="MySQL" version="5.7.9-log" jdbc-version="4.0" driver-name="MySQL Connector Java" driver-version="mysql-connector-java-5.1.45 ( Revision: 9131eefa398531c7dc98776e8a3fe839e544c5b2 )">
+        <extra-name-characters>#@</extra-name-characters>
+        <identifier-quote-string>`</identifier-quote-string>
+      </database-info>
+      <case-sensitivity plain-identifiers="lower" quoted-identifiers="lower" />
+      <secret-storage>master_key</secret-storage>
+      <user-name>root</user-name>
+      <introspection-schemas>*:xdz_db</introspection-schemas>
+    </data-source>
+  </component>
+</project>
